@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NightFreaks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:wght@700&family=Sassy+Frass&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="/html/Index.html">Inicio</a></li>
+            <li><a href="/html/noticias.html">Noticias</a></li>
+            <li><a class="estancia"  href="/html/contacto.html">Contactar</a></li>
+            <li><a href="/html/registro.html">Registrarse/Iniciar sesión</a></li>
+        </ul>
+    </header>
+    <div id="bodyFlex">
+        <div id="izquierda">
+            <div id="foto">
+                <img src="/img/Careto.png" alt="Foto de la cara del creador" width="200px">
+            </div>
+            <div>
+                <h1>Competencias</h1>
+                <h3>Digitales</h3>
+                <p>Nivel usuario:</p>
+                <ul>
+                    <li>Lenguajes de programación: Java.</li>
+                    <li>Lenguajes de marcas: HTML, XML, JSON.</li>
+                    <li>IDE: IntelliJ, Visual Studio Code.</li>
+                    <li>Comunicación: TCP/IP.</li>
+                    <li>Gestión de bases de datos: MySQL.</li>
+                </ul>
+                <p>Nivel Usuario avanzado:</p>
+                <ul>
+                    <li>Ofimática: Gmail, procesadores de texto.</li>
+                    <li>Sistemas operativos: Windows.</li>
+                    <li>Paquetes: Office y Libre Office.</li>
+                </ul>
+                <h3>Idiomas</h3>
+                <ul>
+                    <li>Castellano y gallego nativos.</li>
+                    <li>Inglés B1.</li>
+                    <li>Catalán B1.</li>
+                    <li>Portugués B1.</li>
+                </ul>
+                <h3>Competencias organizativas</h3>
+                <ul>
+                    <li>Orientación a objetivos y resultados.</li>
+                    <li>Trabajo en equipo.</li>
+                    <li>Diálogo y negociación.</li>
+                    <li>Iniciativa.</li>
+                </ul>
+
+            </div>
+            <div id="CV">
+                <h2>Descarga mi CV aquí</h2>
+                <a href="/files/CV_EGC.pdf" download="CV_Enrique_Guevara_Cameselle"><img src="/img/iconoCV.png" alt="Icono de CV" width=200px></a>
+            </div>
+        </div>
+        <div id="derecha">
+            <div>
+                <h1>Descripción profesional</h1>
+                <p>Muy buenas!</p>
+                <p>Mi nombre es Quique.</p>
+                <p>Actualmente estoy en primero de 
+                    <span class="cursiva"> DAM (desarrollo de aplicaciones
+                    multiplataforma)</span> y trabajo a tiempo parcial
+                    en un establecimiento de comida a domicilio (de algo hay que vivir,
+                    no?).
+                </p>
+                <p>Como experiencia profesional, llevo unos diez años de hostelería
+                    y restauración cargados a mi espalda (y espero que no se acumulen muchos más)
+                    en todo tipo de puestos: desde ayudante de camarero, cuando empecé, hasta director de
+                    un local en 2022. Dejé este último para dedicarme a los estudios (y, por qué no decirlo,
+                    porque lo odiaba).
+                </p>
+                <p>Mi objetivo final en el ámbito profesional es acabar trabajando
+                    para alguna desarrolladora de videojuegos y formar parte de su magia pero,
+                    sueños aparte, espero volverme un programador decente y, por lo menos, conseguir la calidad
+                    de vida que no te da la hostelería.
+                 </p>
+            </div>
+            <div>
+                <h2>Puedes encontrarme en</h2>
+                <div id="sitiosWeb">
+                    <a target="_blank" href="https://www.instagram.com/"><img src="/img/instagram.png" alt="Icono de instagram" width="80px"></a>
+                    <a target="_blank" href="https://www.facebook.com/"><img src="/img/facebook.png" alt="Icono de Facebook" width="80px"></a>
+                    <a target="_blank" href="https://twitter.com/"><img src="/img/twitter.png" alt="Icono de Twitter" width="80px"></a>
+                    <a target="_blank" href="https://es.linkedin.com/"><img src="/img/linkedin.png" alt="Icono de Linkedin" width="80px"></a>
+                </div>
+            </div>
+            <div id="contacto">
+                <h1>Contacto</h1>
+                <form>
+                    <div class="campoTexto">
+                        <label for="motivo_de_contacto">Motivo de contacto*</label><br>
+                        <select name="motivo_de_contacto" id="motivo_de_contacto" required>
+                        <option value="">selecciona un motivo</option>
+                        <option value="motivo_de_contacto">Tengo una queja.</option>
+                        <option value="motivo_de_contacto">Tengo un consejo.</option>
+                        <option value="motivo_de_contacto">Te ofrezco trabajo.</option>
+                        <option value="motivo_de_contacto">Tu página es una aberración.</option>        
+                        </select><br>
+                    </div>
+                    <div class="campoTexto">
+                        <label for="nombre">Nombre*</label>
+                        <br>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="campoTexto">
+                        <label for="mail">Correo electrónico*</label>
+                        <br>
+                        <input type="email" id="mail" name="mail" required>
+                    </div>
+                    <div class="campoTexto">
+                        <label for="motivo">Motivo</label>
+                        <br>
+                        <textarea name="motivo" id="motivo" placeholder="Explica brevemente el motivo" cols="50" rows="8"></textarea>
+                        <br>
+                    </div>
+                    <div class="campoTexto">
+                        <input type="radio" id="privacidad" name="privacidad" value="privacidad" required>
+                        <label for="privacidad">He leído y acepto los términos y políticas de privacidad*</label><br>
+                    </div>
+                    <input type="submit" value="enviar">
+                    <p id="aviso">Todos los campos marcados con (*) son obligatorios.</p>           
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <ul class ="footer">
+            <li><a href="/html/Index.html"><img src="/img/Cuervo.png" alt="Cuervo y Allan Poe" width="30px"></a></li>
+            <li><a href="/html/privacidad.html">Política de privacidad</a></li>
+            <li>
+                <a target="_blank" href="https://www.instagram.com/"><img src="/img/instagram.png" alt="Icono de instagram" width="20px"></a>
+                <a target="_blank" href="https://www.facebook.com/"><img src="/img/facebook.png" alt="Icono de Facebook" width="20px"></a>
+                <a target="_blank" href="https://twitter.com/"><img src="/img/twitter.png" alt="Icono de Twitter" width="20px"></a>
+                <a target="_blank" href="https://es.linkedin.com/"><img src="/img/linkedin.png" alt="Icono de Linkedin" width="20px"></a>
+            </li>
+        </ul>
+    </footer>
+    
+</body>
+</html>

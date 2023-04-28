@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NightFreaks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:wght@700&family=Sassy+Frass&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="/html/Index.html">Inicio</a></li>
+            <li><a class="estancia" href="/html/noticias.html">Noticias</a></li>
+            <li><a href="/html/contacto.html">Contactar</a></li>
+            <li><a href="/html/registro.html">Registrarse/Iniciar sesión</a></li>
+        </ul>
+    </header>
+    <div>
+        <div id="indiceNoticias">
+            <h1>Si quieres buscar una noticia en particular, accede a nuestra biblioteca a través de la imagen.</h1>
+            <a href="/html/biblioteca.html"><img class="centrarImagen" src="/img/biblioteca.jpg" alt="dibujo de biblioteca"></a>
+            <h2>En caso contrario, eres libre de seguir bajando.</h2>
+        </div>
+        <div>
+            <article id="noticia3">
+                <div class="tituloNoticia">
+                    <h1>Los juegos más vendidos de 2022</h1>
+                    <h4>Hagamos una tabla!</h5>
+                </div>
+                <div class="flexNoticia">
+                    <div class="noticia">
+                        <h5 class="categoria">Categoría: videojuegos</h5>
+                        <img src="/img/mando.png" alt="Mando de PS4" width="20px">
+                        <p class="cursiva">Lunes, 20 de febrero de 2023, 22:30</p>
+                        <p>Vamos a aprovechar que no ha pasado mucho desde que hemos empezado este nuevo año para
+                            echar un vistazo rápido a los videojuegos más vendidos en 2022:
+                        </p>
+                        <table>
+                            <caption>Ventas 2022</caption>
+                            <tr>
+                                <th>Posición/País</th>
+                                <th>España</th>
+                                <th>Reino Unido</th>
+                                <th>Estados Unidos</th>
+                                <th>Japón</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>FIFA 23</td>
+                                <td>FIFA 23</td>
+                                <td>Call of Duty: Modern Warfare II</td>
+                                <td>Splatoon 3</td>  
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Pokémon Púrpura</td>
+                                <td>Call of Duty: Modern Warfare II</td>
+                                <td>Elden Ring</td>
+                                <td>Pokémon Escarlata y Púrpura</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Leyendas Pokémon: Arceus</td>
+                                <td>Leyendas Pokémon: Arceus</td>
+                                <td>Madden NFL 23</td>
+                                <td>Leyendas Pokémon: Arceus</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>God of War Ragnarök</td>
+                                <td>Horizon: Forbidden West</td>
+                                <td>LEGO Star Wars: The Skywalker Saga</td>
+                                <td>Kirby y la tierra olvidada</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Nintendo Switch Sports</td>
+                                <td>Pokémon Escarlata y Púrpura</td>
+                                <td>God of War: Ragnarok</td>
+                                <td>Nintendo Switch Sports</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Mario Kart 8 Deluxe</td>
+                                <td>LEGO Star Wars: The Skywalker Saga</td>
+                                <td>Leyendas Pokémon: Arceus</td>
+                                <td>Mario Kart 8 Deluxe</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Gran Turismo 7</td>
+                                <td>Mario Kart 8 Deluxe</td>
+                                <td>Pokémon Escarlata y Púrpura</td>
+                                <td>Minecraft (Switch)</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>Elden Ring</td>
+                                <td>God of War: Ragnarok</td>
+                                <td>Horizon: Forbidden West</td>
+                                <td>Mario Party Superstars</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>Horizon Forbidden West</td>
+                                <td>Nintendo Switch Sports</td>
+                                <td>FIFA 23</td>
+                                <td>Super Smash Bros. Ultimate</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>Minecraft</td>
+                                <td>Elden Ring</td>
+                                <td>MLB: The Show 22</td>
+                                <td>Elden Ring</td>
+                            </tr>
+                        </table>
+                        <p>En NightFreaks sabemos que la justicia es una invención poética, así que
+                            nos reservaremos nuestra opinión para nosotros.</p>
+                        <img src="/img/MarioKart.png" alt="Supermario en su kart a toda mecha." width="560">
+                        <p>Y tú?</p>
+                        <p>Estás de acuerdo con los resultados de 2022? Te imaginabas la victoria aplastante
+                            de Nintendo en Japón? Contamos con tu opinión!
+                        </p>                       
+                        <form class="comentario">
+                            <div class="centrarImagen">
+                                <label for="comentario2">Comentario</label>
+                                <br>
+                                <textarea name="comentario2" id="comentario2" placeholder="Tu opinión es siempre bienvenida!" cols="60" rows="8"></textarea>
+                                <br>
+                                <input type="submit" value="enviar">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="enlacesRelNoticias">
+                        <h3>enlaces relacionados</h3>
+                        <p><a target="_blank" class="enlaceGenerico" href="https://www.3djuegos.com/juegos/call-of-duty-modern-warfare-2-2022/noticias/listas-juegos-vendidos-ano-2022-evidencian-diferencias-gustos-principales-mercados"> Análisis de <span class="cursiva">3D Juegos</span></a></p>
+                        <p><a target="_blank" class="enlaceGenerico" href="https://vandal.elespanol.com/noticia/1350759235/game-revela-sus-juegos-mas-vendidos-en-espana-durante-2022/">Análisis de <span class="cursiva">Vandal</span></a></p>
+                    </div>
+                </div>
+            </article>
+            <article id="noticia2">
+                <div class="tituloNoticia">
+                    <h1>Wo Long: Fallen Dinasty</h1>
+                    <h4>Team NINJA vuelve a la carga</h4>
+                </div>
+                <div class="flexNoticia">
+                    <div class="noticia">
+                        <h5 class="categoria">Categoría: Videojuegos</h5>
+                        <img src="/img/mando.png" alt="Mando de PS4" width="20px">
+                        <p class="cursiva">Domingo, 19 de febrero de 2023, 22:00</p>
+                        <p>Nadie discute ya a día de hoy que Dark Souls ha definido un
+                            nuevo estilo en el mundo de los videojuegos. Prácticamente todo
+                            gamer se ha dado, aunque sólo fuese una vez, un paseo por las tenebrosas
+                            calzadas de Lordran.
+                        </p>
+                        <img src="/img/darkSouls3.jpg" alt="Escenario de Dark Souls 3." width="560">
+                        <p>Desde la creación de su primera entrega por allá en el 2011, From Software ha seguido desarrollando
+                            este maravilloso tipo de juegos con los que más de un jugador ha destruido su mando con la frustración.
+                        </p>
+                        <p>Todo éxito genera competencia y, éste, no es un caso diferente: Pese a las muchas publicaciones (en su mayoría, insuficientes) que han podido
+                            surgir para hacer frente a los Dark Souls ha habido un ingenioso equipo que logró ponerse a la altura: Team NINJA.
+                        </p>
+                        <p>Con la publicación de Nioh y, posteriormente, Nioh 2, este equipo más conocido por títulos como <span class="cursiva">Dead or Alive</span> o <span class="cursiva">Ninja Gaiden</span>
+                        alcanzó su lugar en el podio de los juegos de tipo Souls.</p>
+                        <p>Casi a la par que la publicación de <span class="cursiva">Nioh 2</span> aparece <span class="cursiva">Sekiro</span> de la mano de From Software 
+                        (de hecho, este último sale a la luz un año antes) y nos muestra otro modo de juego totalmente distinto.</p>
+                        <p>Qué hace Team NINJA después de esto?</p>
+                        <p>Nos trae Wo Long: Fallen Dinasty!</p>   
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dWXHl9Id3XQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            
+                        <p>No sabemos todavía si realmente estará a la altura de su rival pero, sin duda, tendremos que comprobarlo.</p>                     
+                        <p>Crees que realmente los Nioh han estado a la altura de los Souls? Podrá
+                            Wo Long estarlo también de Sekiro? Dinos los que piensas!
+                        </p>
+                        <form class="comentario">
+                            <div class="centrarImagen">
+                                <label for="comentario1">Comentario</label>
+                                <br>
+                                <textarea name="comentario1" id="comentario1" placeholder="Tu opinión es siempre bienvenida!" cols="60" rows="8"></textarea>
+                                <br>
+                                <input type="submit" value="enviar">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="enlacesRelNoticias">
+                        <h3>enlaces relacionados</h3>
+                        <p><a target="_blank" class="enlaceGenerico" href="https://www.vidaextra.com/analisis/wo-long-fallen-dynasty-avance-preview-experiencia-juego-precio-trailers-para-xbox-playstation-pc"> Análisis de <span class="cursiva">Vida Extra</span></a></p>
+                        <p><a target="_blank" class="enlaceGenerico" href="https://www.youtube.com/watch?v=qspFZLpsADs"> Gameplay de <span class="cursiva">IGN</span></a></p>
+                    </div>
+                </div>
+            </article>
+            <article id="noticia1">
+                <div class="tituloNoticia">
+                    <h1>Estrenamos nuestra página!</h1>
+                    <h4>Un clásico de youtube para jugadores de D&D.</h4>
+                </div>
+                <div class="flexNoticia">
+                    <div class="noticia">
+                        <h5 class="categoria">Categoría: Rol</h5>
+                        <img src="/img/d10.png" alt="Dado de diez caras rojo" width="20px">
+                        <p class="cursiva">Viernes, 17 de febrero de 2023, 23:46</p>
+                        <p>Cuántos habéis jugado a algún juego de rol?</p>
+                        <p>Imagino que si habéis llegado hasta aquí, aunque sea un poco habréis jugado. Si la respuesta es afirmativa, damos por supuesto que las anécdotas de vuestras aventuras no serán pocas:
+                            aquella pifia que acabó con tu PJ; aquel crítico imposible que salvó una partida; el jugador que venía sólo
+                            de vez en cuando a jugar pero, aún así, se volvió memorable; las infinitas peleas con el DM y ver rodar y rodar ese
+                            dado como si tu vida real dependiese del resultado final.
+                        </p>
+                        <p>Pues he aquí "The Gamers"!</p>                
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/k6YxzxqP7hM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>               
+                        <p>Este grupo de <span class="cursiva">frikazos</span> ha sabido plasmar maravillosamente todas y cada una de las genuinas situaciones que se dan, se dieron o se darán en vuestras partidas.</p>
+                        <p>Aquí os dejamos sólo el primer vídeo, pero el resto los podréis encontrar en <a target="_blank" class="enlaceGenerico" href="https://www.youtube.com/watch?v=k6YxzxqP7hM&list=PLE172D7CE322B9894">youtube</a> sin ningún problema.</p>
+                        <p>Esperamos que los disfrutéis!</p>  
+                        <img src="/img/caballeros_comedor.jpg" alt="Viñeta de tebeo con personas jugando a rol." width="560" height="315">
+                        <p>Que tienes una anécdota mejor que ninguna? Que no te ha gustado o, por el contrario, te ha encantado el vídeo? Dínoslo! Estaremos encantados de escucharte.</p>
+                        <form class="comentario">
+                            <div>
+                                <label for="comentario">Comentario</label>
+                                <br>
+                                <textarea name="comentario" id="comentario" placeholder="Tu opinión es siempre bienvenida!" cols="60" rows="8"></textarea>
+                                <br>
+                                <input type="submit" value="enviar">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="enlacesRelNoticias">
+                        <h3>enlaces relacionados</h3>
+                        <div>
+                            <img src="/img/Crash.png" alt="Crash Bandicoot con cara de situación" width="50px">
+                        </div>
+                        <p>No hay enlaces relacionados</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>  
+    <footer>
+        <ul class ="footer">
+            <li><a href="/html/Index.html"><img src="/img/Cuervo.png" alt="Cuervo y Allan Poe" width="30px"></a></li>
+            <li><a href="/html/privacidad.html">Política de privacidad</a></li>
+            <li>
+                <a target="_blank" href="https://www.instagram.com/"><img src="/img/instagram.png" alt="Icono de instagram" width="20px"></a>
+                <a target="_blank" href="https://www.facebook.com/"><img src="/img/facebook.png" alt="Icono de Facebook" width="20px"></a>
+                <a target="_blank" href="https://twitter.com/"><img src="/img/twitter.png" alt="Icono de Twitter" width="20px"></a>
+                <a target="_blank" href="https://es.linkedin.com/"><img src="/img/linkedin.png" alt="Icono de Linkedin" width="20px"></a>
+            </li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
